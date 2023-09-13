@@ -6,6 +6,7 @@
     --c-background-light: #FFF;
     --c-background-middle: #F4F4FD;
     --c-accent: #E7E9FC;
+    --c-border: #8E8F99;
 }
 
 body {
@@ -148,6 +149,7 @@ img {
 .hero-section {
     background-color: var(--c-master);
     padding: 188px 0;
+    background-image: url(./images/people-hero.jpg);
 }
 
 .hero-title {
@@ -209,6 +211,18 @@ img {
 
 .advantages-item {
     width: calc((100%-72px)/4);
+}
+
+.advantages-item-icon {
+    border: 1px solid var(--c-border);
+    background: var(--c-background-middle);
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 24px 100px;
 }
 
 .advantages-title {
