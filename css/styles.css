@@ -374,6 +374,14 @@ img {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+
+}
+
+.footer-logo-container {
+    margin-right: 120px;
+}
 
 .footer-logo-left {
     color: var(--c-brand);
@@ -405,4 +413,34 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-socials {
+    display: block;
+}
+
+.footer-socials-text {
+    color: var(--c-background-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-socials-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-socials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--c-brand);
+    fill: var(--c-background-light);
+
 }
