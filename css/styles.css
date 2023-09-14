@@ -465,6 +465,7 @@ img {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 
 }
 
@@ -517,7 +518,7 @@ img {
 
 .footer-socials-menu {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-socials-list {
@@ -548,5 +549,5 @@ img {
 
 .footer-socials-item:hover,
 :focus {
-    background-color: var(--c-brand-pres);
+    background-color: var(--c-icins-active);
 }
