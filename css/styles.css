@@ -145,7 +145,7 @@ img {
 }
 
 .nav-link:hover,
-:focus {
+.nav-link:focus {
     color: var(--c-brand-pres);
 }
 
@@ -170,7 +170,7 @@ img {
 }
 
 .address-type:hover,
-:focus {
+.address-type:focus {
     color: var(--c-brand-pres);
 }
 
@@ -371,7 +371,7 @@ img {
 }
 
 .team-socials-item:hover,
-:focus {
+.team-socials-item:focus {
     background-color: var(--c-brand-pres);
 }
 
@@ -417,12 +417,6 @@ img {
 .portfolio-overlay {
     inset: 0;
     position: absolute;
-    padding: 40px 32px 164px 32px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background-color: var(--c-brand);
-    color: var(--c-background-light);
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
@@ -431,6 +425,15 @@ img {
 
 .portfolio-item:hover .portfolio-overlay {
     transform: translateY(0);
+}
+
+.portfolio-overlay-text {
+    padding: 40px 32px 164px 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--c-brand);
+    color: var(--c-background-light);
 }
 
 .portfolio-card {
@@ -548,6 +551,6 @@ img {
 }
 
 .footer-socials-item:hover,
-:focus {
+.footer-socials-item:focus {
     background-color: var(--c-icins-active);
 }
