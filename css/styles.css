@@ -122,7 +122,6 @@ img {
 .nav-link:hover,
 :focus {
     color: var(--c-brand-pres);
-
 }
 
 .address-list {
@@ -156,7 +155,9 @@ img {
 .hero-section {
     background-color: var(--c-master);
     padding: 188px 0;
-    background-image: url(../images/people-hero.jpg);
+    background-image: url("../images/bgr-hero.svg"), url("../images/people-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
