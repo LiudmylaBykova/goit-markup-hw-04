@@ -361,15 +361,18 @@ img {
     height: 100%;
     border-radius: 50%;
     background-color: var(--c-brand);
-    fill: var(--c-background-light);
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-socials-item-icon {
+    fill: var(--c-background-middle);
+}
+
 .team-socials-item:hover,
 :focus {
-    background-color: var(--c-icins-active);
+    background-color: var(--c-brand-pres);
 }
 
 
@@ -523,16 +526,27 @@ img {
     align-items: center;
     width: 40px;
     height: 40px;
+}
+
+.footer-socials-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color: var(--c-brand);
-    fill: var(--c-background-light);
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.footer-socials-list:hover,
+.footer-socials-item-icon {
+    fill: var(--c-background-middle);
+}
+
+.footer-socials-item:hover,
 :focus {
-    background-color: var(--c-icins-active);
+    background-color: var(--c-brand-pres);
 }
