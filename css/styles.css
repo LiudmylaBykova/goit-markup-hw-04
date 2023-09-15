@@ -103,11 +103,44 @@ img {
     gap: 40px;
 }
 
-.nav-item {
+.current {
     position: relative;
     overflow: hidden;
     display: inline-block;
     color: var(--c-brand-pres);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--c-brand-pres);
+    content: "";
+    right: 0;
+    top: 96%;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: var(--c-master);
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -177,7 +210,6 @@ img {
 .hero-section {
     background-color: var(--c-master);
     padding: 188px 0;
-    /* background-image: url("../images/people-hero.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -305,7 +337,7 @@ img {
     width: calc((100% - 72px)/4);
     border-radius: 0 0 4px 4px;
     border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
+    background: var(--c-background-light);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
