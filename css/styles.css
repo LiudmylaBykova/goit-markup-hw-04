@@ -107,7 +107,7 @@ img {
     position: relative;
     overflow: hidden;
     display: inline-block;
-    color: var(--c-master);
+    color: var(--c-brand-pres);
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
