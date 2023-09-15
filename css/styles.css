@@ -421,19 +421,16 @@ img {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    transform: translateY(0);
-}
-
-.portfolio-overlay-text {
     padding: 40px 32px 164px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: var(--c-brand);
     color: var(--c-background-light);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    transform: translateY(0);
 }
 
 .portfolio-card {
