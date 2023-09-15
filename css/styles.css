@@ -180,12 +180,12 @@ img {
 .hero-section {
     background-color: var(--c-master);
     padding: 188px 0;
-    background-image: linear-gradient url("../images/bg-hero.jpg");
-    background-image: url("../images/people-hero.jpg");
+    /* background-image: url("../images/people-hero.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-hero.jpg);
 }
 
 .hero-title {
@@ -421,12 +421,12 @@ img {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: var(--c-brand);
-    color: var(--c-background-light);
+    color: var(--c-background-middle);
 }
 
 .portfolio-item:hover .portfolio-overlay {
